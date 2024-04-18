@@ -2,9 +2,9 @@
 <h1>Todo List</h1>
 <ul>
   {% for todo in todos %}
-    <li>
-      {{ todo.title }}: tag>{% if todo.completed %}Completed{% else %}Not completed{% endif %}
-    </li>
+  <li>
+    {{ todo.title }}: tag>{% if todo.completed %}Completed{% else %}Not completed{% endif %}
+  </li>
   {% endfor %}
 </ul>
 {% endblock %}
